@@ -1,0 +1,12 @@
+{
+	"name": "boilerplate-d",
+	"authors": [
+		"@truedat101"
+	],
+	"description": "A boilerplate D project",
+	"copyright": "public dodo",
+	"license": "MIT",
+	"dependencies": {
+		"antlr-d": "~>1.3.6"
+	}
+}  
