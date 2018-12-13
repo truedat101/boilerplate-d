@@ -27,7 +27,7 @@ Follow these bullet proof steps:
 * To debug, you need to do a few more things.  Edit your .vscode/launch.json (in the project).  You can edit the various launch configurations here.  This is confusing to me because a ton of launch configurations.  I'm not an expert on this.  However, the simplest thing to do is list your binary exe name in the right place.  Obviously for Linux vs OS X or Win, you might need some different launch configurations.
 * To debug: (1) click the Debug icon, (2) Select a run configuration, (3) and then click |> run.  If you have set breakpoints, great.  Otherwise, the program will run and possibly exit.  Set some variables or expressions too.
 
-A picture to prove that I got this working: ![Image of a mad person trying to use D in an IDE](https://user-images.githubusercontent.com/64202/49914801-86a69f80-fe47-11e8-942e-9b2eb10d6b8d.PNG
+A picture to prove that I got this working: ![Image of a mad person trying to use D in an IDE](https://user-images.githubusercontent.com/64202/49914801-86a69f80-fe47-11e8-942e-9b2eb10d6b8d.PNG)
 
 ## Design
 
