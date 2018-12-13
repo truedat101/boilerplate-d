@@ -27,5 +27,18 @@ import boilerplate.mylib;
 
 void main()
 {
+	auto a = 1;
+	auto b = false;
+	auto c = 0x1;
+	auto e = "A really interesting e variable";
+
 	writeln("Hello");
+	if (b) {
+		writeln("Hello Again");
+	}
+
+	writeln("c = ", c);
+	writeln("a = ", a);
+	a = a + a;
+	writeln("a = ", a);
 }
