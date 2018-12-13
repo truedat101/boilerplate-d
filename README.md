@@ -9,7 +9,8 @@ A boilerplate D project with a single dependency.  The goal is to make an easy t
 - Compilers: You need one.  Get one.  https://dlang.org/download.html
 - Debuggers: https://wiki.dlang.org/Debuggers
 - Native Code debug extension for VSCode: https://github.com/WebFreak001/code-debug
-- https://code.dlang.org/packages/antlr-d
+- https://code.dlang.org/packages/antlr-d (included as a sample module)
+- https://forum.dlang.org/post/cmltohgphiiftvaglrbw@forum.dlang.org (in case you want to learn about a typical how do I debug on Windows question)
 
 ## Getting Started With VSCode
 
@@ -26,6 +27,7 @@ Follow these bullet proof steps:
 * To run: ctrl-shift-b.  Select run (name of your exe)
 * To debug, you need to do a few more things.  Edit your .vscode/launch.json (in the project).  You can edit the various launch configurations here.  This is confusing to me because a ton of launch configurations.  I'm not an expert on this.  However, the simplest thing to do is list your binary exe name in the right place.  Obviously for Linux vs OS X or Win, you might need some different launch configurations.
 * To debug: (1) click the Debug icon, (2) Select a run configuration, (3) and then click |> run.  If you have set breakpoints, great.  Otherwise, the program will run and possibly exit.  Set some variables or expressions too.
+- How to know it all works?  (1) I can build.  (2) I can see context highlighting in my code.  (3) code completion works ... it doesn't work for me and I don't care.  (4) I can debug.  (5) I can see my DUB dependencies (antlr in this case) in the File Explorer view of VSCode.
 
 A picture to prove that I got this working: ![Image of a mad person trying to use D in an IDE](https://user-images.githubusercontent.com/64202/49914801-86a69f80-fe47-11e8-942e-9b2eb10d6b8d.PNG)
 
